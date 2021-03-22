@@ -64,44 +64,7 @@ As a Mi A1 user, I was stuck with Stock Oreo 8.0.0 without Oreo custom ROMs when
 ### v3.0.4
 -   Emoji from Android Q option
 
-### v3.0.2
--   Forgot Ramdisk Patcher Addon
 
-### v3.0.1
--   Unity 4.2 Update
-
-### v3.0.0
--   Add Pixel Stand Feature
-
-### v2.9.9
--   Add Android One Feature Flag
-
-### v2.9.8
--   Unity v4 update
--   Bug fixes
-
-### v2.9.7
--   Max's attempt to help us fix the installation bug
-
-### v2.9.6
--   Updated README.md
--   Fonts by default get added but the installer only requests to REPLACE them. If your OEM uses stock font for clock, it'll break. So just please disable fonts in installer - they won't get the NEW repalce feature but will be added like before
-
-### v2.9.5
--   Once and for all fix damn LockScreen font issues
-
-### v2.9.4
--   Bring back working LockScreen Pixel clock font
-
-### v2.9.3
--   Fix clock fonts on LockScreen
--   Better installation descriptons
-
-### v2.9.2
-
--   Add dynamic Product Sans font installation
--   Replace Samsung Clock font on the LockScreen
--   Get Markup working on devices prior to Android 9
 
 ### v2.9.1
 
@@ -114,18 +77,13 @@ As a Mi A1 user, I was stuck with Stock Oreo 8.0.0 without Oreo custom ROMs when
 -   Unity update
 -   Add font option
 
-### v2.9
 
--   Remove unneed fonts
--   Fix emoji
--   Add curl binary
--   Add Google perms
 
-### v2.7-8
+### v2.1
 
 -   Hot Fixes
 
-### v2.6
+### v2.0
 
 -   BIG UPDATE!
 -   Add more fonts
@@ -139,183 +97,7 @@ As a Mi A1 user, I was stuck with Stock Oreo 8.0.0 without Oreo custom ROMs when
 -   Add (FULL) or (SLIM) to module.prop depending on user choice
 -   Magisk backwards compatibility
 
-### v2.5.2
 
--   Even more hotfixes
-
-### v2.5.1
-
--   Hotfixes
-
-### v2.5
-
--   Rewrote install script to add more customization options
--   Added basename zip for users without working volume keys
--   Add Pixel boot animation option
-
-### v2.4.2
-
--   Warnings for devices running OxygenOS
--   Ignore warnings options
--   Refactor the installation script
--   Fixed keycheck
--   Added sepolicy statements
--   Various bug fixes
-
-### v2.4.1
-
--   Expanded the list of unsupported devices to the Nexuses
--   Cleaned the installation script
--   Added an option to install without the Pixel accent
-
-### v2.4
-
--   Abort installation on Pixel devices
--   Enable Debug feature
-
-### v2.3
-
--   Enable Google Dialer install via Playstore (for before and after Oreo)
--   Enables Call Screening even if you install after Pix3lify (reboot after install)
--   Fixes the overlay removal bugs
-
-### v2.2.1
-
--   Fixes Sounds
--   Enables Call Screening's Post Call survey
--   Fixes the uninstallation bugs
--   Made the overlays optional
-
-### v2.2
-
--   Remove launcher choices (please install from Play Store instead)
-
-### v2.1.2
-
--   Update to Unity v2.3
-
-### v2.1.1
-
--   Update to Sounds 2.0
-
-### v2.1.0
-
--   Flip to Shhh now gets disables when module is uninstalled
-
-### v2.0.9
-
--   Downgrade to Sounds 1.0 (4795461) for support for Oreo
-
-### v2.0.8
-
--   Update to Unity v2.2
-
-### v2.0.7
-
--   Update Google Sound Picker
-
-### v2.0.6
-
--   Enables `AutoDndGesturesSettingsActivity` on boot
-
-### v2.0.5
-
--   Enables `AutoDndGesturesSettingsActivity` for Flip to Shhh
-
-### v2.0.4
-
--   Enable Flip to Shhh via new method
-
-### v2.0.3
-
--   Revert Flip to Shhh changes until a proper enabler is found
-
-### v2.0.2
-
--   Enable Flip to Shhh
-
-### v2.0.1
-
--   Update Pixel Stand
--   Update Google Sound Picker
--   Update Google Markup
-
-### v2
-
--   Remove doze bools from overlay
--   Include Google Markup
--   Include Google Sound Picker
--   Update Digital Wellbeing
-
-### v1.9.2
-
--   Update overlay
-
-### v1.9.1
-
--   Removed vibration mods for the SPECIAL SNOWFLAKES
-
-### v1.9
-
--   Enable Google Dialer's Call Screening
--   Disable AOD (again)
-
-### v1.8.1
-
--   Return to the Magisk Repo
--   Return of Launcher choices (Rootless Launcher, Lawnchair, Ruthless Launcher, Customized Pixel Launcher, stock Pixel Launcher)
--   Return of Launcher homescreen backup/restore
--   Return of Digital Wellbeing to Settings app
--   Return of Pixel Stand
--   Add translations to Gestures app
-
-### v1.7.3
-
--   Remove AOD (again)
-
-### v1.7.2
-
--   Quick fix to Device Gestures
-
-### v1.7.1
-
--   Fix vibration pattern (again)
--   Add config_ringtoneEffectUris from Pixel 3 XL
--   Enable AOD but have it disabled by default
-
-### v1.7
-
--   Add vibration feedback from Pixel 2 XL instead of Pixel 3 XL
-
-### v1.6
-
--   Fix Pixel 3 XL values
-
-### v1.4.2
-
--   Re-add Device Gestures
-
-### v1.4.1
-
--   Enable swipe up gestures
--   Enable rounded corners
--   Enable Pixel 3 haptic feedback
-
-### v1.4
-
--   Add Pixel 3 XL values to bools
-
-### v1.3
-
--   Fix Unity template to avoid bootloops caused by the overlay
-
-### v1.1
-
--   Remove Google Dialer support to avoid conflicts with Moto Dialer
-
-### v1
-
--   Re-added to the Repo
 
 ## ⭐ Contributors
 
@@ -335,6 +117,6 @@ As a Mi A1 user, I was stuck with Stock Oreo 8.0.0 without Oreo custom ROMs when
 
 ## ⭐ Links
 
--   [![LICENSE](https://img.shields.io/github/license/Magisk-Modules-Repo/Pix3lify.svg)](https://github.com/Magisk-Modules-Repo/Pix3lify/blob/master/LICENSE)
+-   [![LICENSE](https://img.shields.io/github/license/Magisk-Modules-Repo/Pix3lify.svg)](https://github.com/Soumendu69/web/blob/main/LICENSE)
 -   [![Pix3lify XDA Portal feature](https://img.shields.io/badge/XDA-Portal-orange.svg)](https://www.xda-developers.com/pixel-2-experience-magisk-module/)
 -   [![Source Code](https://img.shields.io/badge/Github-Source-black.svg)](https://github.com/Magisk-Modules-Repo/Pix3lify)
